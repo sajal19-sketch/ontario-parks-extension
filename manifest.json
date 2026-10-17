@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Ontario Parks Multi-Park & Site Helper",
+  "version": "1.0",
+  "description": "Monitors multiple Ontario Parks maps and specific campsites with a 1-minute alarm.",
+  "permissions": [
+    "alarms",
+    "notifications",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://reservations.ontarioparks.ca/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://reservations.ontarioparks.ca/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
