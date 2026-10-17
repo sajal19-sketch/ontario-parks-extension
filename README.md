@@ -6,6 +6,7 @@ A Manifest V3 Google Chrome extension that monitors the Ontario Parks reservatio
 * **Multi-Park Polling:** Checks availability across multiple parks every minute via the reservation API.
 * **Auto-Carting:** Instantly secures an available site by utilizing your active session token to send a direct cart request.
 * **Audio Alarm:** Plays a 1-minute synthesized alarm when a campsite is found and carted.
+* **For Booking:** Pay within 15-Mintues from your cart for Final Booking and after 15 min your cart will be emty.
 
 ## Installation
 1. Clone or download this repository.
